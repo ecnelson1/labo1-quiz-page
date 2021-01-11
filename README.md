@@ -11,7 +11,7 @@ hidden area to display results
 Alert welcome to test
 ---Validate by viewing alert in live server---
 Confirmation of user's desire to take test
----Validate by logging 'Rather not' to console if user declines to take test--- 
+---Validate by logging 'Declined to test' to console if user declines to take test--- 
 3 prompted yes or no questions
 ---Validate by viewing in live server---
 Keep track of users correct answers
