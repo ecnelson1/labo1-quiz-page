@@ -15,7 +15,7 @@ Confirmation of user's desire to take test
 3 prompted yes or no questions
 ---Validate by viewing in live server---
 Keep track of users correct answers
----Validate through the concole by logging correct answers--- 
+---Validate through the console by logging correct answers--- 
 display string with correct answer amount upon completion of prompts
 --Validate by seeing correct answers displayed in live server in display area---
 
