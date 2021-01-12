@@ -1,1 +1,18 @@
-/* add home page styles here */
+body {
+    background-color: black;
+    color: yellow;
+    font-family: cursive;
+}
+.funFacts {
+justify-content: center;
+align-items: center;
+font-family: fantasy;
+}
+ul {
+    list-style-type: circle;
+}
+.results { 
+    font-size: 50px;
+    color: red;
+
+}
