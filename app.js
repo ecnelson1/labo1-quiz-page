@@ -1,10 +1,12 @@
 const testButton = document.getElementById('takeTest');
 const resultsSection = document.getElementById('testResults');
-// initialize state
-
+// import countAsYes from './test/utils.js';
 function countAsYes(userInput) {
     return userInput.charAt(0).toUpperCase() === 'Y';
 }
+// initialize state
+
+
 
 // set event listeners to update state and DOM
 testButton.addEventListener('click', ()=>{ 
@@ -27,5 +29,7 @@ testButton.addEventListener('click', ()=>{
     if (countAsYes(answer3)){
         ++answers;
     }
-    resultsSection.textContent = `Congratulation ${firstName} ${lastName} got ${answers} out of 3`;
+    const percCor = Math.round((answers / 3) * 100);
+
+    resultsSection.textContent = `Congratulation ${firstName} ${lastName} got ${percCor}%`;
 });
